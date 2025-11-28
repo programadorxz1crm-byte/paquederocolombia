@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Plataforma Paquero",
+    "slug": "plataforma-paquero",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "plataformapaquero",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+  "android": {
+    "package": "com.parqueaderojl.app",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/images/adaptive-icon.png",
+      "backgroundColor": "#D21F1B"
+    },
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "edgeToEdgeEnabled": true,
+    "predictiveBackGestureEnabled": false
+  },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

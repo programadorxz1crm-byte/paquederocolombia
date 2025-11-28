@@ -1,0 +1,16 @@
+[build]
+  command = "cd deportiva-app && npx expo export:web"
+  publish = "deportiva-app/web-build"
+  functions = "netlify/functions"
+
+# Redirige /api/* a la función serverless
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Fallback SPA para rutas del frontend
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Parqueadero JL</string>
+    <string name="title_activity_main">Parqueadero JL</string>
+    <string name="package_name">com.parqueaderojl.app</string>
+    <string name="custom_url_scheme">com.parqueaderojl.app</string>
+</resources>

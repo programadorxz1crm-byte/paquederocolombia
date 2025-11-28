@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Expo web build
+deportiva-app/web-build/
+
+# Vite dist
+dist/
+
+# Android builds
+android/app/build/
+android/.gradle/
+android/.idea/
+
+# iOS/Xcode
+ios/App/App.xcodeproj/
+ios/App/App.xcworkspace/
+ios/App/Pods/
+
+# Misc
+.DS_Store
+*.zip
+.env*

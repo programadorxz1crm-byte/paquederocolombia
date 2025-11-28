@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Monograma EL en estilo simple -->
+    <!-- Letra E: barra vertical -->
+    <item android:top="24dp" android:bottom="24dp" android:left="24dp" android:right="72dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#4f8cff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+    <!-- Letra E: barra superior -->
+    <item android:top="24dp" android:bottom="84dp" android:left="24dp" android:right="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9ac3ff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+    <!-- Letra E: barra media -->
+    <item android:top="48dp" android:bottom="60dp" android:left="34dp" android:right="34dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9ac3ff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+    <!-- Letra E: barra inferior -->
+    <item android:top="72dp" android:bottom="36dp" android:left="24dp" android:right="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9ac3ff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- Letra L: barra vertical -->
+    <item android:top="24dp" android:bottom="24dp" android:left="72dp" android:right="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#4f8cff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+    <!-- Letra L: barra inferior -->
+    <item android:top="72dp" android:bottom="36dp" android:left="62dp" android:right="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9ac3ff"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+    <!-- Destello central -->
+    <item android:top="40dp" android:bottom="64dp" android:left="52dp" android:right="52dp">
+        <shape android:shape="oval">
+            <solid android:color="#ffffff"/>
+            <size android:width="8dp" android:height="8dp"/>
+        </shape>
+    </item>
+</layer-list>

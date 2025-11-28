@@ -1,5 +1,5 @@
 [build]
-  command = "cd deportiva-app && npx expo export:web"
+  command = "cd deportiva-app && npm ci && npx expo export:web"
   publish = "deportiva-app/web-build"
   functions = "netlify/functions"
 
